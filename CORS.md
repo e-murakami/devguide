@@ -139,7 +139,7 @@ require(["esri/config"], function(esriConfig) {
 - <a href="https://developers.arcgis.com/javascript/latest/sample-code/layers-csv/index.html" target="_blank">CSV Layer</a>
 - <a href="https://developers.arcgis.com/javascript/latest/sample-code/layers-webtile-3d/index.html" target="_blank">Web Tile Layer</a>
 
-## 追加情報(英文）
+## 追加情報
 - <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-config.html#request" target="_blank">API Reference: esri/config</a>
 - <a href="https://enable-cors.org/" target="_blank">Enable web server for CORS support</a>
 - <a href="http://test-cors.org/" target="_blank">Test whether server supports CORS</a>
