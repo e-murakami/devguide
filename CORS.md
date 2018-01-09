@@ -8,7 +8,7 @@ Web サーバーとブラウザーの両方が CORS をサポートしている�
 > このトピックでは CORS について詳しく説明していますが、プロキシの操作に関する追加情報は <a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">プロキシガイド</a> のトピックにあります。
 
 <br />
->CORS をサポートするために Web サーバーを事前に構成する必要がありますが、ブラウザーも CORS をサポートできる必要があります。Web サーバーで CORS を有効にする方法については、<a href="https://enable-cors.org/" target="_blank">enable-cors.org</a> をご覧ください。最新のブラウザーはすべて<a href="http://caniuse.com/#feat=cors" target="_blank"> CORS をサポート</a>  しています。
+> CORS をサポートするために Web サーバーを事前に構成する必要がありますが、ブラウザーも CORS をサポートできる必要があります。Web サーバーで CORS を有効にする方法については、<a href="https://enable-cors.org/" target="_blank">enable-cors.org</a> をご覧ください。最新のブラウザーはすべて<a href="http://caniuse.com/#feat=cors" target="_blank"> CORS をサポート</a>  しています。
 
 ## ArcGIS API for JavaScript と CORS
 
