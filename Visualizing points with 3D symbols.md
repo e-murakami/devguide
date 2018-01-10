@@ -3,7 +3,7 @@
 
 ## Web スタイル シンボル を使用する
 
-<a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html" target="_blank">WebStyleSymbol</a> クラスを使用して、写実的、主題的な 3D シンボルを作成できます。このクラスは、API 内ですぐに利用できる数百個のシンボルへのアクセスを提供します。シンボルの <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html#styleName" target="_blank">styleName</a> と <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html#name" target="_blank">name</a> を参照するだけで、目的のビジュアライゼーションを作成することができます。
+<a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html"target="_blank">WebStyleSymbol</a> クラスを使用して、写実的、主題的な 3D シンボルを作成できます。このクラスは、API 内ですぐに利用できる数百個のシンボルへのアクセスを提供します。シンボルの <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html#styleName" target="_blank">styleName</a> と <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html#name" target="_blank">name</a> を参照するだけで、目的のビジュアライゼーションを作成することができます。
 
 ```js
 var symbol = {
