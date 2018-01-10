@@ -5,7 +5,7 @@ Web サーバーとブラウザーの両方が CORS をサポートしている�
 - サーバーが目的のリソースにアクセスするのを待ってからクライアントに返す前に結果を受け取り、Web アプリケーションが要求をサーバーに送り返す必要がなくなるため、パフォーマンスが向上します。
 - サーバー上にプロキシ ページを維持する必要がなくなり、開発が容易になります。
 
-> このトピックでは CORS について詳しく説明していますが、プロキシの操作に関する情報は <a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">プロキシガイド</a> のトピックにあります。
+> このトピックでは CORS について詳しく説明していますが、プロキシの操作に関する情報は <a href="https://github.com/e-murakami/devguide/blob/master/Proxy%20pages.md" target="_blank">プロキシ ガイド</a> のトピックにあります。
 
 > CORS をサポートするために Web サーバーを事前に構成する必要がありますが、ブラウザーも CORS をサポートできる必要があります。Web サーバーで CORS を有効にする方法については、<a href="https://enable-cors.org/" target="_blank">enable-cors.org</a> をご覧ください。最新のブラウザーはすべて<a href="http://caniuse.com/#feat=cors" target="_blank"> CORS をサポート</a> しています。
 
@@ -128,7 +128,7 @@ require(["esri/config"], function(esriConfig) {
 
 ### その他のシナリオ
 
-上記の使用例に合わない場合があります。例えば、CORS がサーバー上で有効になっておらず、JSONP がサポートされていない場合や、サービスがファイアウォールの内側にある場合があります。このような場合は、<a href="https://en.wikipedia.org/wiki/Proxy_server" target="_blank">プロキシ</a> ページが必要です。プロキシ ページに関する使用事例については、<a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">proxies</a> ガイドをご参照ください。
+上記の使用例に合わない場合があります。例えば、CORS がサーバー上で有効になっておらず、JSONP がサポートされていない場合や、サービスがファイアウォールの内側にある場合があります。このような場合は、<a href="https://en.wikipedia.org/wiki/Proxy_server" target="_blank">プロキシ</a> ページが必要です。プロキシ ページに関する使用事例については、<a href="https://github.com/e-murakami/devguide/blob/master/Proxy%20pages.md" target="_blank">プロキシ</a> ガイドをご参照ください。
 
 ### サンプル
 
