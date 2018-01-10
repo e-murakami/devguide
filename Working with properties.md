@@ -39,7 +39,7 @@ var viewProperties = {
 };
 view.set(viewProperties);
 ```
->4.x より前のバージョンでは、`getMethodname()` または `setMethodname()` を呼び出すことによって、一部のプロパティを取得（読取り）または設定（書込み）することができました。4.x では、API がすべてのプロパティを取得して設定するシンプルで一貫した方法をサポートするため、これらのメソッドは必要ありません。
+>4.x より前のバージョンでは、`getMethodname()` または `setMethodname()` を呼び出すことによって、一部のプロパティを取得（読み取り）または設定（書き込み）することができました。4.x では、API がすべてのプロパティを取得して設定するシンプルで一貫した方法をサポートするため、これらのメソッドは必要ありません。
 
 ### プロパティの監視
 
@@ -64,7 +64,7 @@ var handle = map.watch('basemap.title', function(newValue, oldValue, property, o
 });
 ```
 
-もしユーザーがベースマップを以下のように変更した場合
+もしユーザーがベースマップを以下のように変更した場合、
 
 ```js
 map.basemap = "topo";
