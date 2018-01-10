@@ -1,13 +1,13 @@
-ArcGIS API for JavaScript は <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">CORS</a> をサポートしています。CORS は、Web アプリケーションにブラウザーの<a href="https://en.wikipedia.org/wiki/Same-origin_policy" target="_blank"> 同一オリジン ポリシー</a> をバイパスし、他のサーバー/ドメイン上のリソースまたはサービスにアクセスできます。
+ArcGIS API for JavaScript は <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">CORS</a> をサポートしています。CORS は、Web アプリケーションにブラウザーの<a href="https://en.wikipedia.org/wiki/Same-origin_policy" target="_blank"> 同一オリジン ポリシー</a> をバイパスし、他のサーバー / ドメイン上のリソースまたはサービスにアクセスできます。
 
 Web サーバーとブラウザーの両方が CORS をサポートしている場合、<a href="https://en.wikipedia.org/wiki/Proxy_server" target="_blank">プロキシ</a>はクロスドメイン要求を行う必要はありません。これは次のように役立ちます。
 
 - サーバーが目的のリソースにアクセスするのを待ってからクライアントに返す前に結果を受け取り、Web アプリケーションが要求をサーバーに送り返す必要がなくなるため、パフォーマンスが向上します。
 - サーバー上にプロキシ ページを維持する必要がなくなり、開発が容易になります。
 
-> このトピックでは CORS について詳しく説明していますが、プロキシの操作に関する追加情報は <a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">プロキシガイド</a> のトピックにあります。
+> このトピックでは CORS について詳しく説明していますが、プロキシの操作に関する情報は <a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">プロキシガイド</a> のトピックにあります。
 
-> CORS をサポートするために Web サーバーを事前に構成する必要がありますが、ブラウザーも CORS をサポートできる必要があります。Web サーバーで CORS を有効にする方法については、<a href="https://enable-cors.org/" target="_blank">enable-cors.org</a> をご覧ください。最新のブラウザーはすべて<a href="http://caniuse.com/#feat=cors" target="_blank"> CORS をサポート</a>  しています。
+> CORS をサポートするために Web サーバーを事前に構成する必要がありますが、ブラウザーも CORS をサポートできる必要があります。Web サーバーで CORS を有効にする方法については、<a href="https://enable-cors.org/" target="_blank">enable-cors.org</a> をご覧ください。最新のブラウザーはすべて<a href="http://caniuse.com/#feat=cors" target="_blank"> CORS をサポート</a> しています。
 
 ## ArcGIS API for JavaScript と CORS
 
@@ -31,7 +31,7 @@ Sampleserver1 はバージョン 10.01 のArcGIS Server サービスです。バ
 
 `sampleserver1.arcgisonline.com/rest/services` で、CORS が有効になっていない場合でも、このサーバーのレイヤーは引き続き表示できます。「ドメイン間アクセスが有効になっていないと、どのようにクロス ドメインにアクセスするのか？」と思うかもしれません。
 
-これは、リクエストが `HTTP GET` を介して行われ、レスポンスがJSONP（JSON with padding）形式であるためです。これは URL で指定されたコールバック関数でラップされた JSON レスポンスです。例えば、コールバックを使用します。
+これは、リクエストが `HTTP GET` を介して行われ、レスポンスが JSONP（JSON with padding）形式であるためです。これは URL で指定されたコールバック関数でラップされた JSON レスポンスです。例えば、コールバックを使用します。
 
 ```js
 https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Demographics/ESRI_Population_World/MapServer?f=json&dpi=96&transparent=true&format=jpeg&callback=dojo.io.script.jsonp_dojoIoScript1._jsonpCallback
@@ -130,7 +130,7 @@ require(["esri/config"], function(esriConfig) {
 
 上記の使用例に合わない場合があります。例えば、CORS がサーバー上で有効になっておらず、JSONP がサポートされていない場合や、サービスがファイアウォールの内側にある場合があります。このような場合は、<a href="https://en.wikipedia.org/wiki/Proxy_server" target="_blank">プロキシ</a> ページが必要です。プロキシ ページに関する使用事例については、<a href="https://developers.arcgis.com/javascript/latest/guide/proxies/index.html" target="_blank">proxies</a> ガイドをご参照ください。
 
-### 役立つサンプル
+### サンプル
 
 以下のサンプルは <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-config.html#request" target="_blank">esri.config.defaults.io.corsEnabledServers</a>
  にサーバー名をプッシュする方法を示しています。
