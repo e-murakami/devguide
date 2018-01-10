@@ -167,7 +167,7 @@ require(["esri/Map", "esri/views/MapView", "dojo/domReady!"], function(Map, MapV
 
 ## 追加情報
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">MDN Promise documentation</a> と <a href="http://dojotoolkit.org/reference-guide/1.10/dojo/promise/Promise.html#dojo-promise-promise" target="_blank">Dojo Promise documentation</a> では、promise の構造と使用方法をより詳細に理解することができます。以下は、promise に関する追加リンク(英文）です。
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">MDN Promise documentation</a> と <a href="http://dojotoolkit.org/reference-guide/1.10/dojo/promise/Promise.html#dojo-promise-promise" target="_blank">Dojo Promise documentation</a> では、promise の構造と使用方法をより詳細に理解することができます。以下は、promise に関する追加リンクです。
 
 - <a href="https://www.sitepen.com/blog/2015/03/06/understanding-deferreds-and-promises-in-dojo/" target="_blank">Understanding Deferreds and Promises in Dojo</a>
 - <a href="http://dojotoolkit.org/documentation/tutorials/1.10/promises/index.html" target="_blank">Dojo Deferreds and Promises</a>
