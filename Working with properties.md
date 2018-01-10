@@ -83,7 +83,7 @@ Watched object: //これはマップオブジェクトを記録します
 
 # 追加情報
 
-詳細については、次のリンク(英文）を参照してください。
+詳細については、次のリンクを参照してください。
 
 - <a href="https://developers.arcgis.com/javascript/latest/guide/migrating/index.html#properties" target="_blank">Migrating from 3.x to 4.6</a>
 - <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-core-Accessor.html" target="_blank">Accessor class</a>
