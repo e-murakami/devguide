@@ -37,7 +37,7 @@ require([
  プロパティと <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-renderers-SimpleRenderer.html" target="_blank">SimpleRenderer</a>
  の <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-renderers-SimpleRenderer.html#symbol" target="_blank">symbol</a> プロパティに同じ `autocast` タグがあります。
 
-次は、オートキャスティングを取り入れます。すべてのモジュールを必要とする必要がないことを忘れないでください。コンストラクター パラメーターを直接 autocast プロパティに渡すだけです。
+次は、オートキャスティングを取り入れます。コンストラクター パラメーターを直接 autocast プロパティに渡すだけです。
 
 ```js
 require([
@@ -99,7 +99,7 @@ API ドキュメントで次のラベルを持つプロパティの値は、オ�
 ![autocast-label](https://s3-ap-northeast-1.amazonaws.com/apps.esrij.com/arcgis-dev/guide/img/js_devguid/Autocasting/autocast-label.png)
 
 
-##その他の例
+## その他の例
 
 型付けされたプロパティをオートキャストしてビューポイントを作成します。<a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-Viewpoint.html" target="_blank">ビューポイント</a> の <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-Viewpoint.html#camera" target="_blank">camera</a> プロパティ、カメラの <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-Camera.html#position" target="_blank">position</a> プロパティ、<a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-geometry-Point.html" target="_blank">ポイント</a> の <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-geometry-Point.html#spatialReference" target="_blank">spatialReference</a> プロパティはすべてオートキャストによって設定できます。
 
